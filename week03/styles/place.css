@@ -1,0 +1,49 @@
+@media screen and (max-width: 768px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    header {
+        background-color: #b71c1c;
+        color: white;
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    .weather-icon {
+        display: none;
+    }
+
+    .weather-icon-svg {
+        display: block;
+    }
+
+    .weather-icon-svg img {
+        max-width: 5%;  
+        height: auto;    
+    }
+    
+
+    img {
+        width: 700px;
+        height: auto;
+    }
+
+    .data, .weather {
+        background: #fff;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+        background-color: #b71c1c;
+        color: white;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
