@@ -1,0 +1,36 @@
+/* styles/siteplan-larger.css (Desktop) */
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 3rem;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 15px;
+    }
+
+    .intro {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .latest-articles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+}

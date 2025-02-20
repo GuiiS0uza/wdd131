@@ -1,0 +1,59 @@
+/* styles/siteplan.css (Mobile) */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: center;
+    padding: 2rem;
+}
+
+.latest-articles {
+    padding: 1rem;
+}
+
+article {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+article a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333333;
+    color: white;
+}
